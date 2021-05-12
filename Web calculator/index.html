@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <script src="script.js" type="text/javascript">   
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="icon.jpg" />
+		<title>Web Calculator</title>
+  </head>
+  
+  <body>
+    <div class=main>
+      <div id="calculator">
+    <form name="form">
+      <input name="textinput" class="textinput" />
+    </form>
+    
+    <table >
+      <tr>
+        <td><button onclick="clean()"style="background-color:#20b2aa;">C</button></td>
+        <td><button onclick="back()">DEL</button></td>
+        <td><button onclick="insert('+')">+</button></td>
+        <td><button onclick="insert('-')">-</button></td>
+        <td><button onclick="calc_sin()">sin</button></td>
+      </tr>
+      <tr>
+      <td><button onclick="insert(1)"style="background-color:#7d93e0;">1</button></td>
+      <td><button onclick="insert(2)"style="background-color:#7d93e0;">2</button></td>
+      <td><button onclick="insert(3)"style="background-color:#7d93e0;">3</button></td>
+      <td><button onclick="insert('*')">*</button></td>
+      <td><button onclick="calc_cos()">cos</button></td>
+      
+      </tr>
+      <tr>
+      <td><button onclick="insert(4)"style="background-color:#7d93e0;">4</button></td>
+      <td><button onclick="insert(5)"style="background-color:#7d93e0;">5</button></td>
+      <td><button onclick="insert(6)"style="background-color:#7d93e0;">6</button></td>
+      <td><button onclick="insert('/')">/</button></td>
+      <td><button onclick="calc_tan()">tan</button></td>
+      </tr>
+      <tr>
+      <td><button onclick="insert(7)"style="background-color:#7d93e0;">7</button></td>
+      <td><button onclick="insert(8)"style="background-color:#7d93e0;">8</button></td>
+      <td><button onclick="insert(9)"style="background-color:#7d93e0;">9</button></td>
+      <td><button onclick="calc_sqrt()">sqrt</button></td>
+      <td><button onclick="insert('(')">(</button></td>
+      </tr>
+      <tr>
+     <td><button onclick="insert('.')">.</button></td>
+      <td><button onclick="insert(0)"style="background-color:#7d93e0;">0</button></td>
+      <td><button onclick="calc_percent()">%</button></td>
+      <td><button onclick="insert(')')">)</button></td>
+      <td><button id="deg" onclick="calc_deg()">deg</button></td>
+      </tr>
+      <tr>
+      <td><button onclick="insert('**')">^</button></td>
+      <td ><button onclick="calc_exp()">exp</button></td>
+      <td><button onclick="calc_pi()">pi</button></td>
+      <td><button onclick="calc_log()">ln</button></td>
+      <td><button id="rad" style="border: solid red" onclick="calc_rad()">rad</button></td>
+      </tr>
+      <tr>
+      <td></td>
+      <td></td>
+      <td><button onclick="calculate()"style="background-color:#20b2aa;">=</button></td>
+      </tr>
+    </table>
+    </div>
+  </div>
+  </body>
+</html>
