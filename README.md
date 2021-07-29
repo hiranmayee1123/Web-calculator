@@ -1,2 +1,2 @@
 # Web-calculator
-<img src="Screenshot.png"></img><br><br>
+This is a web application made with HTML,CSS and Java Script in which an operatable scientific calculator.
